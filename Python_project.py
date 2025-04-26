@@ -15,7 +15,7 @@ print(df.isnull().sum())
 #here i am replacing all the null values which    are present in the balance
 #column with the each country's average balance 
 for i in ['France', 'Spain', 'Germany']:
-    data = df[(df['Geography'] == i) & (df['Balance'].notnull())]
+    data = df[(df['Geography'] == i) & (df['Balance'].notnull()) ]
     avg = data['Balance'].mean()
     print(f"Average Balance for {i}: {avg}")
     df.loc[(df['Geography'] == i) & (df['Balance'].isnull()), 'Balance'] = avg

@@ -12,7 +12,7 @@ df = pd.read_csv("Bank_Churn.csv")
 print("No. of missing values in each column:")
 print(df.isnull().sum())
 
-#here i am replacing all the null values which are present in the balance
+#here i am replacing all the null values which    are present in the balance
 #column with the each country's average balance 
 for i in ['France', 'Spain', 'Germany']:
     data = df[(df['Geography'] == i) & (df['Balance'].notnull())]

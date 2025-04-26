@@ -10,6 +10,7 @@ from sklearn.preprocessing import StandardScaler
 df = pd.read_csv("Bank_Churn.csv")
 
 print("No. of missing values in each column:")
+
 print(df.isnull().sum())
 
 #here i am replacing all the null values which are present in the balance

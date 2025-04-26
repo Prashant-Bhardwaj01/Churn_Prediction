@@ -1,7 +1,7 @@
 # Churn_Prediction
 🔍 Why do bank customers leave? I wanted to find out.
 I recently dove into a project to explore customer churn in the banking sector — and it turned out to be a really eye-opening experience!
-Here’s what I did:
+Here’s what I did: 
 ✅ Cleaned and prepped a real-world bank dataset using Pandas and NumPy
  ✅ Visualized trends with Matplotlib and Seaborn — from age and geography to salary and balance
  ✅ Built a machine learning model to predict which customers are most likely to churn
